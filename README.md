@@ -1,5 +1,6 @@
-# sqlalchemy script to make a db with an instance of a model class considering a csv file
-# The second script is to build a rest api in flask
+# SQLAlchemy script to make a db file in sqlite3 with an instance of a model class considering a csv file
+# the script will run backups of the database in sqlite3 format
+# The second script is to build an API with Flask framework
 
 - python -m venv env
 - source env/bin/activate
