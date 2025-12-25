@@ -6,5 +6,20 @@
 - source env/bin/activate
 - pip install -r requirements.txt
 - python3 app.py
-# to run flask rest api
+# to run: flask rest api
 - python3 flask_rest_api.py
+
+---
+
+## Technologies Used:
+
+- Python
+
+##
+---
+
+Clone the repository:
+
+```bash
+git clone /https://github.com/gutiluis/Techdegree-project-4.git
+```
