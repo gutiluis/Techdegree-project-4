@@ -1,4 +1,4 @@
-# SQLAlchemy script to make a db file in sqlite3 with an instance of a model class considering a csv file
+# SQLAlchemy script to make a db file in sqlite3 with an instance of a model class. import a csv file
 # the script will run backups of the database in sqlite3 format
 # The second script is to build an API with Flask framework
 
