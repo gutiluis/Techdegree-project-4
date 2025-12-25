@@ -15,7 +15,7 @@
 
 - Python
 - SQLAlchemy
-  
+- SQLite
 ##
 ---
 
