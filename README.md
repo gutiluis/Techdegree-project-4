@@ -14,7 +14,8 @@
 ## Technologies Used:
 
 - Python
-
+- SQLAlchemy
+  
 ##
 ---
 
