@@ -1,4 +1,4 @@
-# sqlalchemy script to make a db with an instance of a model class considering a csv file
+# SQLAlchemy script to make a relational sqlite3_db with an instance of a model class. importing a csv file
 # with a second script to build a rest api in flask
 
 - python -m venv env
