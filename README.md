@@ -1,6 +1,4 @@
-# SQLAlchemy script to make a db file in sqlite3 with an instance of a model class. import a csv file
-# the script will run backups of the database in sqlite3 format
-# The second script is to build an API with Flask framework
+## How it works:
 
 - python -m venv env
 - source env/bin/activate
@@ -9,17 +7,33 @@
 # to run: flask rest api
 - python3 flask_rest_api.py
 
+-----
+
+##
+
+## Features
+
+# SQLAlchemy script to make a db file in sqlite3 with an instance of a model class. import a csv file
+# the script will run backups of the database in sqlite3 format
+# The second script is to build an API with Flask framework
+
 ---
+
+###
 
 ## Technologies Used:
 
 - Python
 - SQLAlchemy
 - SQLite
-##
----
 
-Clone the repository:
+## What I Learned:
+
+-----
+
+###
+
+Clone the repo:
 
 ```bash
 git clone /https://github.com/gutiluis/Techdegree-project-4.git
