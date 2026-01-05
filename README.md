@@ -14,7 +14,7 @@
 ## Features
 
 # SQLAlchemy script to make a db file in sqlite3 with an instance of a model class. import a csv file
-# the script will run backups of the database in sqlite3 format
+# the script will run backups of the database in SQLite format
 # The second script is to build an API with Flask framework
 
 ---
