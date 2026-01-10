@@ -5,9 +5,6 @@ From within the terminal run:
 - source env/bin/activate
 - pip install -r requirements.txt
 - python3 app.py
-  
-# to run the flask rest api
-- python3 flask_rest_api.py
 
 Console application that loads an existing store's inventory data from a CSV file into a SQLite database. 
 The application will allow a user to interact with the records stored in the database to view existing records, add new items, and backup/export the existing state of the database into a CSV file.
@@ -21,22 +18,20 @@ Creates a model called Product that the SQLAlchemy ORM will use to build the dat
 The Product model should has five attributes: product_id, product_name, product_quantity, product_price, and date_updated.
 Uses SQLALchemy’s built-in primary_key functionality for the product_id field, so that each product will have an automatically generated unique identifier.
 
-
 Connects the database and creates tables
 Within the dunder main method:
 connected to the database created/initialized
 load the CSV products data into the created table
 Run the application so the user can make menu choices and interact with the application.
 
-Read the existing CSV file
-Read the inventory.csv file, and create a list that contains each product inside the csv file as a dictionary. 
+Provides functions to read the existing CSV file named inventory.csv file, and create a list that contains each product inside the csv file as a dictionary. 
 Cleaning up the data before adding each product dictionary to a list:
 product_id will be stored as SQLAlchemy’s built in primary_key
 product_quantity will be stored as an integer
 product_price will be stored as an integer and converted to cents ($3.19 becomes 319, for example)
 date_updated will be stored as a Date object.
 
-Add the data from CSV into the database
+Adding the data from CSV into the SQLite database
 Function that will add the products listed in the inventory.csv file to the database.
 
 Creates a Menu to make selections
@@ -53,7 +48,8 @@ prompt the user to enter the product's name, quantity, and price. process the us
 Backup the database (Export new CSV) - Menu Option B
 function to handle making a backup of the database. The backup is written to a .csv file.
 
-
+# to run the flask rest api
+- python3 flask_rest_api.py
 
 -----
 
@@ -83,15 +79,15 @@ The second script is to build an API with Flask framework
 
 ## Skills Learned:
 
-- relational databases
-- csv
+- Relational Databases
+- CSV
 - ORM
 
 -----
 
 ###
 
-Clone the repo:
+Cloning repo:
 
 ```bash
 git clone https://github.com/gutiluis/Techdegree-project-4.git
